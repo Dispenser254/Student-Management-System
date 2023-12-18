@@ -12,12 +12,12 @@ export default function Header() {
 const navigate = useNavigate();
 
 	return (
-		<div className="bg-white h-16 px-4 flex justify-between items-center border-b border-gray-400 rounded-md">
+		<div className="bg-white h-14 px-4 flex justify-between items-center border-b border-gray-400 rounded-md">
 			<div className="relative">
 				<HiOutlineSearch className="absolute text-gray-400 top-1/2 -translate-y-1/2 left-3" />
 				<input
 					type="text"
-					className="text-sm focus:outline-none border border-gray-300 rounded-lg h-10 w-[24rem] px-4 pl-11"
+					className="text-sm focus:outline-none border border-gray-300 rounded-lg h-7 w-[24rem] px-4 pl-11"
 					placeholder="Search..."
 				/>
 			</div>
@@ -94,7 +94,7 @@ const navigate = useNavigate();
 					<Menu.Button className="inline-flex ml-2">
 						<span className="sr-only">Open user menu</span>
 						<div
-							className="h-10 w-10 rounded-full bg-sky-400 bg-cover bg-no-repeat bg-center"
+							className="h-7 w-7 rounded-full bg-sky-400 bg-cover bg-no-repeat bg-center"
 							style={{
 								backgroundImage:
 									"url('https://source.unsplash.com/80*80/?face')",
